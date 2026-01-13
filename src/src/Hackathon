@@ -1,0 +1,15 @@
+{
+  "name": "onchain-insight-ai",
+  "version": "0.1.1",
+  "description": "AI-powered multi-chain blockchain wallet analysis using Etherscan V2 API and AI",
+  "main": "src/fetchWallet.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/fetchWallet.js",
+    "analyze": "node src/analyzeWallet.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  }
+}
